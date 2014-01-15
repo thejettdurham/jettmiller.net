@@ -1,0 +1,73 @@
+.testimonial {
+	display: block;
+	width: 100%;
+	margin: 3% 0;
+	
+	@include breakpoint(meatwad) {
+		text-align: center;
+	}
+}
+
+.tst-citation, .tst-content {
+	display: inline-block;
+	vertical-align: top;
+	@include box-sizing (border-box);
+}
+
+.tst-citation {
+	width: 32%;
+	text-align: left;
+	line-height: 1.3em;
+	padding: .6em;
+	margin-bottom: 1em;
+	background: $tstCitationBackground;
+	@include border-radius(8px);
+	box-shadow: 4px 4px 6px rgba(0,0,0,0.4);
+	
+	h3 {
+		margin: 0;
+		color: $tstCitationH3color;
+		font-size: 1.3em;
+	}
+	h4 {
+		font-weight: normal;
+		margin: 0 0 1% 0;
+		font-style: italic;
+		color: $tstCitationH4color;
+		line-height: 1.4em;
+	}
+	a {
+		display: block;
+		font-size: .85em;
+		
+		color: $tstCitationLinkColor;
+		
+		&:hover {
+			color: $tstCitationLinkHoverColor;
+		}
+	}
+	
+	@include breakpoint (shake) {
+		width: auto;
+	}
+
+}
+
+.tst-content {
+	width: 64%;
+	margin-left: 2%;
+	text-align: left;
+	
+	p {
+		margin: 0 0 3.2%;
+		
+		&:first-child {
+			font-style: italic;
+		}
+	}
+	
+	@include breakpoint(shake) {
+		width: 100%;
+		margin: 0;
+	}
+}

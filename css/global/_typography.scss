@@ -1,0 +1,60 @@
+/* =========================
+TYPOGRAPHY
+========================== */
+@font-face {
+	font-family: 'socialicon';
+	font-style: normal;
+	src: url('../font/socialico.eot'); /* IE9 Compat Modes */
+	src: url('../font/socialico.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../font/socialico.woff') format('woff'), /* Modern Browsers */
+	     url('../font/socialico.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../font/socialico.svg#svgsocialico') format('svg'); /* Legacy iOS */
+	}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color: $bodyTextColor;
+	background: $bodyBackgroundColor url('../img/cube-tile.jpg') repeat fixed;
+}
+
+a {
+	color: $rootAnchorColor;
+}
+
+h1 {
+	margin: 0 auto 2%;
+	text-align: center;
+	color: $rootH1Color;
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, .25);
+	
+	@include breakpoint(shake) {
+		margin: 0 auto 4%;
+	}
+	
+	@include breakpoint(crumb) {
+		font-size: 1.6em;
+	}
+}
+
+h2 {
+	margin: 0 0 .5% 0;
+	color: $rootH2Color;
+}
+
+p {
+	margin: 3.2% 0;
+	@include fontSizeHeight($rootPSize, $rootPLineHeight);
+	
+	@include breakpoint(meatwad) {
+		@include fontSizeHeight($rootPSize, $rootPLineHeight + .2em);
+	}
+	
+	@include breakpoint(crumb) {
+		@include fontSizeHeight($rootPSize - .1em, $rootPLineHeight);
+	}
+}
+
+footer {
+	font-weight: bold;
+}

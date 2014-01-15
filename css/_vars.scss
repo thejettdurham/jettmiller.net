@@ -1,0 +1,93 @@
+/* Global Variables */
+$jettDarkBlue: #112e40;
+$jettMedBlue: #2f5973;
+$jettLightBlue: #608ba6;
+$jettDarkPeach: #bfbcaa;
+$jettMediumPeach: #e0d3b9;
+$jettLightPeach: #f2e2c4;
+$jettDarkYellow: #b1a825;
+$jettLightYellow: #dfd98d;
+
+$copyTextColor: black;
+
+/* Typography Variables */
+$bodyTextColor: $copyTextColor;
+$bodyBackgroundColor: $jettLightBlue;
+
+$rootAnchorColor: $jettLightBlue;
+$rootH1Color: $jettDarkBlue;
+$rootH2Color: $jettMedBlue;
+
+$rootPSize: 1.1em;
+$rootPLineHeight: 1.5em;
+
+/* Navigation Variables */
+$navbarColor: $jettMedBlue;
+$pageOnColor: $jettLightYellow;
+$navItemHoverColor: $jettDarkYellow;
+$mainNavFontColor: $jettDarkPeach;
+
+$navBarWidth: 100%;
+$mainNavWidth: 69%;
+$socialWidth: 20%; 
+
+$menuButtonHeight: 3em;
+$navBarScoot: -15.65em;
+
+$navbarMinHeight: 40px;
+$mainNavFontSize: 1.25em;
+$socialIconFontSize: 2.4em;
+
+$socialIconWidth: 25%;
+$socialPadding: 0 1.6% 0 0;
+$socialIconFontColor: $jettDarkPeach;
+
+$mainNavHoverScaleFactor: 1.05;
+$socialIconHoverScaleFactor: 1.10;
+
+/* Header-Footer Variables */
+$footerBackgroundColor: $jettDarkBlue;
+$footerDivColor: $jettDarkPeach;
+
+$footerMinHeight: 123px;
+$footerMaxWidth: 970px;
+$footerFontSize: 1.1em;
+
+/* Content Variables */
+$contentBackground: $jettLightPeach;
+$pageWrapperMaxWidth: 970px;
+$contentPhotoMaxWidth: 416px;
+
+/* Portfolio Variables */
+$portfolioContentBackground: $jettLightPeach;
+$mobilePFButtonsHeight: 50px;
+
+/* Resume Variables */
+$tab_text_color: $jettDarkPeach;
+$tab_text_color_active: $jettLightYellow;
+$tab_text_color_hover: $jettDarkYellow;
+$tab_container_bg: $jettMediumPeach;
+$tabs_min_width: 175px;
+$tabs_width: 26.3%;
+$tab_container_width: 73%;
+$tab_container_min_width: 10px;
+
+/* Testimonials Variables */
+$tstCitationBackground: $jettMedBlue;
+$tstCitationH3color: $jettDarkPeach;
+$tstCitationH4color: $jettMediumPeach;
+$tstCitationLinkColor: $jettLightYellow;
+$tstCitationLinkHoverColor: $jettDarkYellow;
+
+
+/* Contact Variables */
+$inputGroupMinHeight: 25px;
+$contactLabelWidth: 6em;
+$contactInputWidth: 60%;
+$contactInputMinWidth: 300px;
+$contactInputMaxWidth: 400px;
+$contactMessageMinHeight: 200px;
+
+/* GitHub Variables */
+$githubBackground: $jettLightYellow;
+$githubBackgroundHover: $jettDarkYellow;

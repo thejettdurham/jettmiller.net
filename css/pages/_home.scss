@@ -1,0 +1,23 @@
+/* =========================
+CONTENT
+=========================== */
+#page-wrapper {
+	width: 100%;
+	max-width: $pageWrapperMaxWidth;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 5px 13px 1px rgba(0, 0, 0, 0.4);
+	box-shadow:         0 5px 13px 1px rgba(0, 0, 0, 0.4);
+	position: relative; 
+	background: $contentBackground;
+}
+
+.content {
+	padding: 2%;
+	background: $contentBackground;
+	position: relative;
+	z-index: 10;
+	
+	@include breakpoint(meatwad) {
+		padding: 3% 5%;
+	}
+}

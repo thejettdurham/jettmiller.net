@@ -1,0 +1,53 @@
+.contactFormWrapper {
+	margin: 0 auto;
+	text-align: center;
+	
+	.inputGroup {
+		min-height: $inputGroupMinHeight;
+		margin: 1.5em;
+				
+		label {
+			font-weight: bold;
+			width: $contactLabelWidth;
+			text-align: right;
+			margin-right: 1.5em;
+			line-height: $inputGroupMinHeight;
+			
+			@include breakpoint (meatwad) {
+				margin-bottom: .8em;
+				text-align: center;
+				margin-right: 0;
+			}
+		}
+			
+		textarea {
+			min-height: $contactMessageMinHeight;
+		}
+		
+		textarea, input {
+			width: $contactInputWidth;
+			min-width: $contactInputMinWidth;
+			max-width: $contactInputMaxWidth;
+		}
+		
+		textarea, input, label {
+			display: inline-block;
+			vertical-align: top;
+			@include box-sizing(border-box);
+		
+			@include breakpoint(meatwad) {
+				width: 100%;
+				min-width: initial;
+				max-width: initial;
+			}
+		}
+	}
+	
+	input[type="submit"] {
+		padding: 0.5em 1.5em;
+		border-radius: 10px;
+		outline: 0;
+	}
+}
+
+

@@ -1,0 +1,365 @@
+<portfolioContent>
+	<!--Web Design -->
+	<webdesign>
+		<filename>website-lhmain</filename>
+		<boxTitle>Livy High</boxTitle>
+		<boxDescription><![CDATA[
+		<p><a href="http://www.livyhigh.com" alt="Livy High Website" title="Livy High" target="_blank">http://www.livyhigh.com</a></p>
+		<p>This is a website for my band Livy High.  It's a little-out of date as it was originally built in 2010, and it hasn't been kept up to date so some of the modules have broken.  However, it demonstrates my ability to code a simple website from the ground up.</p>
+		]]>
+		</boxDescription>
+	</webdesign>
+		<webdesign>
+		<filename>troutt-beeman</filename>
+		<boxTitle>Troutt - Beeman</boxTitle>
+		<boxDescription><![CDATA[
+		<h4>Responsive website redesign & implementation for Troutt, Beeman &amp; Co.</h4>
+		<p class="pfLink"><em>Note: At the time of of this posting, this redesign has not been pushed to the client's live website</em></p>
+		<h5>Project Highlights</h5>
+		<ul>
+			<li>Extensive use of Media Queries to control layout of page elements at different viewport sizes</li>
+			<li>Built a fluid contact page that resizes and reflows its elements depending on viewport width</li>
+		</ul>
+		]]>
+		</boxDescription>
+	</webdesign>
+		<webdesign>
+		<filename>daines-goodwin</filename>
+		<boxTitle>DainesGoodwin</boxTitle>
+		<boxDescription><![CDATA[
+		<h4>Responsive website redesign & implementation for Daines Goodwin CPAs</h4>
+		<p class="pfLink"><a href="http://www.dgcpa.co" alt="Daines Goodwin CPAs" title="Daines Goodwin CPAs" target="_blank">http://www.dgcpa.co</a></p>
+		<h5>Project Highlights</h5>
+		<ul>
+			<li>Use of jQuery to restucture parts of the DOM when certain media queries are active</li>
+			<li>Focus on typographic rhythm</li>
+		</ul>
+		]]></boxDescription>
+	</webdesign>
+		<webdesign>
+		<filename>clarke-starke</filename>
+		<boxTitle>Clarke, Starke, Diegel</boxTitle>
+		<boxDescription><![CDATA[
+		<h4>Responsive website redesign & implementation for Clarke, Starke, &amp; Diegel LLP</h4>
+		<p class="pfLink"><a href="http://www.csdca.com" alt="Clarke Starke Diegel LLP" title="Clarke Starke Diegel LLP" target="_blank">http://www.csdca.com</a></p>
+		<h5>Project Highlights</h5>
+		<ul>
+			<li>Use of jQuery plugin to implement a slideshow marquee on the home page</li>
+			<li>Use of custom Javascript script with jQuery to change header image for different pages</li>
+		</ul>
+		]]></boxDescription>
+	</webdesign>
+		<webdesign>
+		<filename>faske-lay</filename>
+		<boxTitle>Faske - Lay</boxTitle>
+		<boxDescription><![CDATA[
+		<h4>Responsive website redesign & implementation for Faske, Lay &amp; Co, LLP</h4>
+		<p class="pfLink"><a href="http://www.faskelay.com" alt="Faske, Lay, &amp; Co LLP" title="Faske, Lay &amp; Co LLP" target="_blank">http://www.faskelay.com</a></p>
+		<h5>Project Highlights</h5>
+		<ul>
+			<li>Wrote custom PHP script to pull the existing client's contact info from the database and display it elsewhere on the site</li>
+			<li>Use of icon fonts for small decorative elements</li>
+		</ul>		
+		]]></boxDescription>
+	</webdesign>
+		<webdesign>
+		<filename>tax-network-group</filename>
+		<boxTitle>Tax Network Group</boxTitle>
+		<boxDescription><![CDATA[
+		<h4>Responsive website redesign & implementation for Tax Network Group</h4>
+		<p class="pfLink"><em>Note: At the time of of this posting, this redesign has not been pushed to the client's live website</em></p>
+		<h5>Project Highlights</h5>
+		<ul>
+			<li>Building a design heavily inspired by another popular website by request of the client</li>
+			<li>Using the 3 column design pattern with a jQuery slider plugin to control showing of new content</li>
+		</ul>		
+		]]></boxDescription>
+	</webdesign>
+	
+	<!-- Web Dev -->
+	<webdev>
+		<filename>reptileuv</filename>
+		<boxTitle>ReptileUV</boxTitle>
+		<boxDescription><![CDATA[
+		<h4>eCommerce Platform Migration for ReptileUV</h4>
+		<p class="pfLink"><a href="http://www.reptileuv.com" alt="ReptileUV LLC" title="ReptileUV LLC" target="_blank">http://www.reptileuv.com</a></p>
+		<h5>Project Highlights</h5>
+		<ul>
+			<li>Migrating all of the content from a static eCommerce implementation to a dynamic self-hosted solution, striving to minimize the changes in the front end from the old system to the new.</li>
+			<li>Rigorous testing of the installation to ensure everything would work properly once fully deployed</li>
+			<li>Training the customer service manager at ReptileUV to use and maintain the new store from the back-end</li>
+		</ul>
+		]]></boxDescription>
+	</webdev>
+	<webdev>
+		<filename>windes</filename>
+		<boxTitle>Windes</boxTitle>
+		<boxDescription><![CDATA[
+		<h4>Implementation of new Website Design for Windes</h4>
+		<p class="pfLink"><a href="http://www.windes.com" alt="Windes" title="Windes" target="_blank">http://www.windes.com</a></p>
+		<h5>Project Highlights</h5>
+		<ul>
+			<li>Changing an existing website to match a mockup of a new design provided by a third party</li>
+			<li>Use of a custom Javascript script w/ jQuery to show a modal popup on the home page.  This contained information about the redesign and was only showed to new visitors only</li>
+		</ul>
+		]]>
+		</boxDescription>
+	</webdev>
+	
+	<!-- Composite -->
+	<composite>
+		<filename>the-last-sunrise</filename>
+		<boxTitle>The Last Sunrise</boxTitle>
+		<boxDescription>
+			<![CDATA[
+			<p>This comp was originally intended to be a submission for a Cracked.com Photoplasty contest, but I wasn't able to finish it in time.  But, I went ahead and finished it just for fun.</p>
+			]]>
+		</boxDescription>
+	</composite>
+	<composite>
+		<filename>cd-lhstay-web</filename>
+		<boxTitle>Promo CD 1</boxTitle>
+		<boxDescription><![CDATA[
+			<p>A mockup of a promo CD for Livy High.</p>
+		]]>
+		</boxDescription>
+	</composite>
+		<composite>
+		<filename>promocd-web</filename>
+		<boxTitle>Promo CD 2</boxTitle>
+		<boxDescription><![CDATA[
+			<p>A mockup of another promo CD for Livy High</p>
+		]]></boxDescription>
+	</composite>
+	<composite>
+		<filename>new-cover-proto-web</filename>
+		<boxTitle>CD Cover Concept</boxTitle>
+		<boxDescription><![CDATA[
+			<p>A concept for an album cover for Livy High</p>
+		]]></boxDescription>
+	</composite>
+	<composite>
+		<filename>new-group</filename>
+		<boxTitle>Band Photo Composite</boxTitle>
+		<boxDescription><![CDATA[
+			<p>A composite photo of the band on a new background</p>
+		]]></boxDescription>
+	</composite>
+	<composite>
+		<filename>promoback-proof-web</filename>
+		<boxTitle>CD Rear Concept</boxTitle>
+		<boxDescription><![CDATA[
+			<p>A concept for the back jacket of a CD</p>
+		]]></boxDescription>
+	</composite>
+	<composite>
+		<filename>myspace-concept-web</filename>
+		<boxTitle>Old Myspace Layout</boxTitle>
+		<boxDescription><![CDATA[
+			<p>A Mockup for an old Myspace Layout</p>
+		]]></boxDescription>
+	</composite>
+	<composite>
+		<filename>crackedksweather</filename>
+		<boxTitle>Weather Modification</boxTitle>
+		<boxDescription><![CDATA[
+			<p>A composite photo of a mad scientist modifying some weather for a Cracked.com Photoplasty Contest (did not place)</p>
+		]]></boxDescription>
+	</composite>
+	<composite>
+		<filename>FINAL_Google-Glass-Kitchen-Fire</filename>
+		<boxTitle>The Downside of Glass</boxTitle>
+		<boxDescription><![CDATA[
+			<p>A composite photo illustrating one of the many potential dangers of Google Glass for a Cracked.com Photoplasty Contest (did not place)</p>
+		]]></boxDescription>
+	</composite>
+	
+	<!-- Print -->
+	<print>
+		<filename>savethedate</filename>
+		<boxTitle>Save The Date</boxTitle>
+		<boxDescription><![CDATA[
+			<p>This is a Save The Date that my fiancee <a href="https://twitter.com/NotesFromAmanda" alt="Amanda Trimble" title="Amanda Trimble" target="_blank">Amanda Trimble</a> and I designed for our upcoming wedding!  Photography was done by <a href="https://twitter.com/DakotaMiller23" alt="Dakota Miller" title="Dakota Miller" target="_blank">Dakota Miller</a>, Amanda provided the color scheme and structure, and I edited the photos and laid out the document to be sent to print.</p>
+		]]></boxDescription>
+	</print>
+	<print>
+		<filename>flyer-lh-boysback</filename>
+		<boxTitle>The Boys are Back</boxTitle>
+		<boxDescription><![CDATA[
+		
+		]]></boxDescription>
+	</print>
+	<print>
+		<filename>pubflyer10</filename>
+		<boxTitle>With Evalyn Awake</boxTitle>
+		<boxDescription><![CDATA[
+		
+		]]></boxDescription>
+	</print>
+	<print>
+		<filename>flyer-lh-landon</filename>
+		<boxTitle>With Landon</boxTitle>
+		<boxDescription><![CDATA[
+		
+		]]></boxDescription>
+	</print>
+	<print>
+		<filename>pubflyer5</filename>
+		<boxTitle>An Evening With Livy High</boxTitle>
+		<boxDescription><![CDATA[
+		
+		]]></boxDescription>
+	</print>
+	<print>
+		<filename>flyer-lh-dryule</filename>
+		<boxTitle>With Dave</boxTitle>
+		<boxDescription><![CDATA[
+		
+		]]></boxDescription>
+	</print>
+	<print>
+		<filename>pubflyer9</filename>
+		<boxTitle>With Siva Addiction</boxTitle>
+		<boxDescription><![CDATA[
+		
+		]]></boxDescription>
+	</print>
+	
+	<!-- Photography -->
+	<photography>
+		<filename>DSC_0236</filename>
+		<boxTitle>Hungry Goose</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>poor-goose</filename>
+		<boxTitle>Poor Goose</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0051</filename>
+		<boxTitle>Mixing Desk</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0067-Edit</filename>
+		<boxTitle>Bass Guitar</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0078</filename>
+		<boxTitle>Bass Guitarist</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+		<photography>
+		<filename>IMG_0138</filename>
+		<boxTitle>The Fiancee!</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0163</filename>
+		<boxTitle>Colorful Bird</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0184</filename>
+		<boxTitle>Kissing Kangaroos</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0204</filename>
+		<boxTitle>Fuzzy Alpaca</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0223</filename>
+		<boxTitle>Zoo Duck</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0495</filename>
+		<boxTitle>Chuihaha Plotting a Scheme</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+		<photography>
+		<filename>IMG_0641</filename>
+		<boxTitle>Strange Skies</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0653</filename>
+		<boxTitle>Graffiti Sign</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0688</filename>
+		<boxTitle>Decayed Mile Marker</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0713</filename>
+		<boxTitle>Mini Pizza!</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0774</filename>
+		<boxTitle>Big Horns</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0779</filename>
+		<boxTitle>Nice GOATee</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0794</filename>
+		<boxTitle>All Cooped Up</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0811</filename>
+		<boxTitle>Stuck</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0830</filename>
+		<boxTitle>White Flowers</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0854</filename>
+		<boxTitle>Pretty Flowers</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0856</filename>
+		<boxTitle>A Pink Flower</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0869</filename>
+		<boxTitle>Twisted Tree</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0923</filename>
+		<boxTitle>Mini Waterfall</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0927</filename>
+		<boxTitle>The Thinking Gorilla</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0931</filename>
+		<boxTitle>A Bigger Mini Waterfall</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+	<photography>
+		<filename>IMG_0969</filename>
+		<boxTitle>Birds Like the Zoo, Too</boxTitle>
+		<boxDescription></boxDescription>
+	</photography>
+</portfolioContent>
+	

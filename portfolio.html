@@ -1,0 +1,61 @@
+<?php 
+$page_name = "portfolio";
+$page_title = "Jett's Portfolio";
+
+require_once('inc/header.php'); ?>
+			
+<div id="content-home" class="content cf">
+	<h1 class="center">Portfolio</h1>
+	<p>Welcome to my online portfolio!  Here you'll find the work that I feel best represents my style, skill set, sense of humor, and so forth.  You'll find below examples of my composite image work, my photography, and more!  Keep checking back as I'm always reviewing and tweaking my portfolio as it grows.  Thanks for taking a look!</p>
+	
+<?php 
+	require_once 'inc/portfolioLoader.php';
+?>
+	
+</div>
+
+<script>
+/* This sets the height of the iframe equal to the height of the inner content */
+function fixFrameHeight () {
+	$(".mfp-iframe").css("height", $(".mfp-iframe").contents().find(".pf-wrap").outerHeight() + 40 );
+}
+$(document).ready(function(){
+	var num_csels = <?php echo count($portfolioCategories); ?>;
+	for (var i = 1; i <= num_csels; i++) { 
+	
+		/* Initialize Magnific Popup */
+		$("#csel" + i).magnificPopup( {
+			delegate: 'a',
+			type: 'iframe',
+			iframe: {
+				markup: '<div class="mfp-iframe-scaler">'+
+				'<div class="mfp-close"></div>'+
+				'<iframe onload="fixFrameHeight()" class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+			  '</div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
+			},
+			gallery: {
+				enabled: true
+			},
+			removalDelay: 300,
+			mainClass: 'mfp-fade'
+		});
+		
+		/* Initialize carouFredSel */
+		if ($("#menuButton").css("display") != "block" ) {
+			/* Scrolling Gallery for Desktop */
+			$("#csel" + i).carouFredSel({
+				auto : false,
+				prev : "#csel" + i + "_prev",
+				next : "#csel" + i + "_next", 
+				scroll : { items: 1 }
+			});
+			if ($("#csel" + i + " img").length <= 5) {
+				$("#csel" + i + " img").parents(".image_carousel").addClass("nofade");
+			}
+		}
+	}
+	
+});
+</script>
+
+<?php require_once('inc/footer.php'); ?>

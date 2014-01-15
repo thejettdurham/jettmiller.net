@@ -1,0 +1,88 @@
+/*=================================
+HEADER & FOOTER
+================================== */
+#header {
+	width: 100%;
+	position: relative;
+	z-index: 10;
+}
+
+#header img {
+	display: block;
+}
+
+#footer {
+	width: 100%;
+	min-height: $footerMinHeight;
+	max-width: $footerMaxWidth;
+	background: $footerBackgroundColor;
+	font-size: $footerFontSize;
+	position: relative;
+	
+	& > div {
+		display: inline-block;
+		width: 32%;
+		vertical-align: middle;
+		color: $footerDivColor;
+	
+		@include breakpoint(meatwad) {
+			display: none;
+			width: 100%
+		}
+	}
+	
+}
+
+
+#footer #footer-left {
+	text-align: left;
+	padding: 2% 0 0 2%;
+	
+	@include breakpoint(meatwad) {
+		display: none;
+	}
+}
+
+#footer #footer-center {
+	text-align: center;
+	padding: 1% 0 0 0;
+	
+	@include breakpoint (meatwad) {
+		display: none;
+	}
+}
+
+#footer #footer-right {
+	text-align: right;
+	margin: 0 -3% 0 0;
+	
+	@include breakpoint(meatwad) {
+		display: inline-block;
+		text-align: center;
+		margin: 3% 0;
+	}
+}
+
+.myEmail, .myPhone {
+	a {
+		color: inherit;
+		@include transition(all .1s ease-in);
+
+		&:hover {
+			color: #b1a825;
+		}
+	}
+}
+
+#copyright {
+	font-weight: 700;	
+	/*font-size: 1.1em*/
+}
+
+#font_credit {
+	font-size: .8em;
+}
+
+#validation {
+	/*font-size: 1.1em;*/
+}

@@ -1,0 +1,35 @@
+/* If you're reading this, you're probably trying to asses my skills as a CSS writer.
+	You may have a hard time following some of my braces and in-line media queries.
+	That is because this CSS file was written in SCSS and compiled to CSS.
+	To view the source SCSS files (and more!), go to: https://github.com/thejettmiller/jettmiller.net 
+*/
+
+// Variables
+@import "_vars.scss";
+@import "_mixins.scss";
+
+// Fix CSS
+@import "fix/_normalize.scss";
+@import "fix/_clearfix.scss";
+@import "fix/_androidMenuFix.scss";
+
+// Plug-in CSS
+@import "plugin/_caroufredsel.scss";
+@import "plugin/_magnificpopup.scss";
+@import "plugin/_lightboxanimation.scss";
+
+// Global Site CSS
+@import "global/_global.scss";
+@import "global/_typography.scss";
+
+// Module CSS
+@import "modules/_navigation.scss";
+@import "modules/_header-footer.scss";
+@import "modules/_githubModule.scss";
+
+// Page-Specific CSS
+@import "pages/_home.scss";
+@import "pages/_portfolio.scss";
+@import "pages/_resume.scss";
+@import "pages/_testimonials.scss";
+@import "pages/_contact.scss";

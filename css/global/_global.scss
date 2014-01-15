@@ -1,0 +1,80 @@
+/*=========================
+GLOBAL
+========================== */
+
+div,
+span,
+p,
+ul,
+li,	
+img
+h1
+h2
+h3 {	
+	margin: 0;
+}
+
+.columnLeft {
+	margin: 0 1% 0 0;
+}
+
+.columnRight {
+	margin: 0 0 0 1%;
+}
+
+.columnLeft, .columnRight {
+	display: inline-block;
+	vertical-align: middle;
+	@include box-sizing (border-box);
+	margin-bottom: 2.1%;
+	
+	@include breakpoint(shake) {
+		margin: 0;
+	}
+}
+
+.textContent {
+	width: 55%;
+	
+	@include breakpoint(shake) {
+		width: 100%;
+	}
+}
+
+.imageContent {
+	width: 42%;
+	
+	@include breakpoint(shake) {
+		display: none;
+	}
+}
+
+.clear {
+	clear: both;
+}
+
+img {
+	max-width: 100%;
+}
+
+.small-drop {
+	margin-top: 4%;
+	
+	@include breakpoint(shake) {
+		margin-top: 0;
+	}
+}
+
+.smallMargin {
+	margin: 1em;
+}
+
+.go-away {
+	display: none;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
